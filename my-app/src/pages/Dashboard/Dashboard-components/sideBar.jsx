@@ -15,8 +15,12 @@ const StudentOptions = ({ styleObj, url }) => {
         <NavLink to={`${url}/routine`}>ক্লাস রুটিন </NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
+        <i class="fas fa-user-check"></i>
+        <NavLink to={`${url}/attendance`}>উপস্থিতি </NavLink>
+      </div>
+      <div className={styleObj.sidebar__link}>
         <i class="fas fa-home"></i>
-        <NavLink to={`${url}home-work`}>বাড়ির কাজ</NavLink>
+        <NavLink to={`${url}/home-work`}>বাড়ির কাজ</NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
         <i class="fas fa-users"></i>
@@ -64,7 +68,7 @@ const SideBar = ({ styleObj, sideBar, setSidebar, url }) => {
         <StudentOptions styleObj={styleObj} url={url} />
         <div className={styleObj.sidebar__logout}>
           <i className="fa fa-power-off" />
-          <Link to="logout">লগআউট </Link>
+          <Link to="/logout">লগআউট </Link>
         </div>
       </div>
     </div>

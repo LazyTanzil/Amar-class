@@ -1,0 +1,28 @@
+.card-left-side {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-left-side i {
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  background-color: #7f8c8d;
+}
+.card-right-date {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+.hw-righPart-submit span {
+  text-align: right;
+  font-size: 16px;
+}
+.submit-image img {
+  width: 110px;
+  height: 90px;
+  border: 2px solid #95a5a6;
+}
+.submitted-hw{
+    opacity: .6;
+}

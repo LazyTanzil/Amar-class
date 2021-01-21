@@ -123,6 +123,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="https://meet.google.com/ykc-bycj-ocv"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >
@@ -183,6 +184,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="https://meet.google.com/ykc-bycj-ocv"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >
@@ -243,6 +245,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="https://meet.google.com/ykc-bycj-ocv"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >
@@ -303,6 +306,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="https://meet.google.com/ykc-bycj-ocv"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >
@@ -423,6 +427,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="#"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >
@@ -483,6 +488,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="#"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >
@@ -543,6 +549,7 @@ const ClassRoutine = () => {
                       </div>
                       <div className="btn-group">
                         <a
+                          href="#"
                           className="dropdown-toggle dropdown_icon"
                           data-toggle="dropdown"
                         >

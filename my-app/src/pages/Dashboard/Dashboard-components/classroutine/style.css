@@ -254,16 +254,21 @@
 }
 .mode_on {
   background-color: #09922d;
+  font-size: 14px;
 }
 .mode_off {
   background-color: #8e44ad;
+  font-size: 14px;
 }
 .mode_upcoming {
   background-color: #f1c40f;
+  font-size: 14px;
 }
 .mode_process {
-  /* background-color: #ff8000; */
   color: black;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 .mode_done {
   background-color: #03a9f3;
