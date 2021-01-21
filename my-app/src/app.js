@@ -8,20 +8,24 @@ import NotFoundPage from "./pages/404-page/index";
 
 import "react-toastify/dist/ReactToastify.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact render={(props) => <Dashboard {...props} />} />
+          <Route path="/student" render={(props) => <Dashboard {...props} />} />
           <Route path="/login" exact render={(props) => <Login {...props} />} />
           <Route
             path="/logout"
             exact
             render={(props) => <Logout {...props} />}
           />
-
-          <Route path="*" render={(props) => <NotFoundPage {...props} />} />
+          <Route
+            path="*"
+            exact
+            render={(props) => <NotFoundPage {...props} />}
+          />
         </Switch>
       </BrowserRouter>
     </div>

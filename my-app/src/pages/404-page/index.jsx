@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styleObj from "./style.module.css";
-const NotFoundPage = () => {
+const NotFoundPage = (prop) => {
+  console.log(prop);
   const setTitle = () => {
     document.title = "NCPSC || 404 Page not found ";
   };
@@ -13,7 +14,7 @@ const NotFoundPage = () => {
           4 <span className={styleObj.zero}></span>4
         </h2>
         <h3>Oops! Page Not Found...</h3>
-        <Link to="/">Back To HOME</Link>
+        <Link to="/student">Back To HOME</Link>
       </div>
     </div>
   );

@@ -44,7 +44,7 @@ const Login = ({ history }) => {
       setFormData({ ...formData, loading: true });
       if (login(phone, password)) {
         toast.dark("স্বাগত");
-        history.push("/");
+        history.push("/student");
         setFormData({ ...formData, loading: false });
       } else {
         toast.error("ভুল পাসওয়ার্ড কিংবা মোবাইল নম্বর ");
@@ -76,7 +76,7 @@ const Login = ({ history }) => {
     // presentation lyout
     <>
       {/* checking is the user is already log in  */}
-      {getStatus() ? <Redirect to="/" /> : null}
+      {getStatus() ? <Redirect to="/student" /> : null}
       {/* toast container for notifications  */}
       <ToastContainer
         position="top-center"
@@ -146,13 +146,13 @@ const Login = ({ history }) => {
               পাসওয়ার্ড মনে নেই
             </Link>
           </form>
-          <div class="alert alert-secondary" role="alert">
+          <div className="alert alert-secondary" role="alert">
             নিজের অভিবাবকের মোবাইল নম্বর দেয়
           </div>
-          <div class="alert alert-secondary" role="alert">
+          <div className="alert alert-secondary" role="alert">
             গোপন পাসওয়ার্ড দেয়
           </div>
-          <div class="alert alert-secondary" role="alert">
+          <div className="alert alert-secondary" role="alert">
             কোন কারনে পাসওয়ার্ড মনে না থাকলে "পাসওয়ার্ড মনে নেই" অপশন টাতে চাপ
             দেয়
           </div>

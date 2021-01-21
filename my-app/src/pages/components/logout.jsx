@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Redirect } from "react-router-dom";
-import { logout, isLogin, getStatus } from "../../helpers/auth";
+import { logout, getStatus } from "../../helpers/auth";
 
 const Logout = () => {
   useEffect(() => {
@@ -8,7 +8,7 @@ const Logout = () => {
   }, []);
   return (
     <div>
-      {getStatus() ? <Redirect to="/login" /> : <Redirect to="/" />}
+      {getStatus() ? <Redirect to="/login" /> : <Redirect to="/student" />}
       Logout
     </div>
   );
