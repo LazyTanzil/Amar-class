@@ -1,5 +1,4 @@
 import React from "react";
-import schoolLogo from "../../../assests/logo.png";
 
 const NavBar = ({ styleObj, setSidebar }) => {
   return (
@@ -14,10 +13,7 @@ const NavBar = ({ styleObj, setSidebar }) => {
         />
       </div>
       <div className={styleObj.navbar__right}>
-        <span>Nirjhor cantonment public school and college</span>
-        <a href="https://ncpsc.edu.bd">
-          <img width={30} src={schoolLogo} alt="School logo " />
-        </a>
+        <span>ইফরিজা খানম, পঞ্চম</span>
       </div>
     </nav>
   );

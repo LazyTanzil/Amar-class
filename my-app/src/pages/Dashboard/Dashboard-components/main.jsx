@@ -1,26 +1,17 @@
 import React from "react";
-import { Switch } from "react-router-dom";
-
-//admin components
-
+import { Switch, Route } from "react-router-dom";
+import Profile from "./profile";
 const MainContent = ({ styleObj, path }) => {
   return (
     <Switch>
       <main className={styleObj.main}>
         <div className={styleObj.main__container}>
           {/* students */}
-          {/* <Route
+          <Route
             exact
             path={`${path}`}
-            render={(props) =>
-              role !== "admin" ? (
-                <ViewProfile {...props} />
-              ) : (
-                <AttenanceLogAdmin {...props} />
-              )
-            }
-          /> */}
-          <h2>hello</h2>
+            render={(props) => <Profile {...props} />}
+          />
         </div>
       </main>
     </Switch>

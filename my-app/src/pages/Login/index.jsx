@@ -154,7 +154,7 @@ const Login = ({ history }) => {
           </div>
           <div class="alert alert-secondary" role="alert">
             কোন কারনে পাসওয়ার্ড মনে না থাকলে "পাসওয়ার্ড মনে নেই" অপশন টাতে চাপ
-            দে
+            দেয়
           </div>
         </div>
       </div>
