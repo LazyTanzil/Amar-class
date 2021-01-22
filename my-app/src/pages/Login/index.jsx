@@ -5,7 +5,7 @@ import { Redirect, Link } from "react-router-dom";
 import { getStatus, login } from "../../helpers/auth";
 //importing components
 import Loading from "../components/loading";
-import loginSvg from "../../assests/undraw-login.svg";
+import loginSvg from "../../assests/login-bg.png";
 import googleSvg from "../../assests/google.svg";
 
 //importing stylesheets
@@ -51,7 +51,7 @@ const Login = ({ history }) => {
         setFormData({ ...formData, loading: false });
       }
     } else {
-      toast.error("সঠিক তথা দেয় ");
+      toast.error("সঠিক তথা দেই  ");
     }
   };
   const checkValidateEmail = () => {
@@ -147,14 +147,14 @@ const Login = ({ history }) => {
             </Link>
           </form>
           <div className="alert alert-secondary" role="alert">
-            নিজের অভিবাবকের মোবাইল নম্বর দেয়
+            নিজের অভিবাবকের মোবাইল নম্বর দেই
           </div>
           <div className="alert alert-secondary" role="alert">
-            গোপন পাসওয়ার্ড দেয়
+            গোপন পাসওয়ার্ড দেই
           </div>
           <div className="alert alert-secondary" role="alert">
             কোন কারনে পাসওয়ার্ড মনে না থাকলে "পাসওয়ার্ড মনে নেই" অপশন টাতে চাপ
-            দেয়
+            দেই
           </div>
         </div>
       </div>

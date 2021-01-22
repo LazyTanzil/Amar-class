@@ -52,50 +52,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link" disabled>
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li class="dropdown-item">
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li class="dropdown-item">
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark">
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -112,51 +83,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link" disabled>
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark">
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -173,51 +114,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link" disabled>
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark">
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -234,51 +145,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link">
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon bg-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow text-white"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark" disabled>
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -295,51 +176,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link">
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon bg-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow text-white"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark" disabled>
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -356,50 +207,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link">
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon bg-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow  text-white"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark" disabled>
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -416,51 +238,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link" disabled>
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="#"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark" disabled>
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -477,51 +269,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link" disabled>
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="#"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark" disabled>
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -538,51 +300,21 @@ const ClassRoutine = () => {
                     </td>
                     <td>
                       <div className="btn-group">
-                        <a
-                          href="https://meet.google.com/ykc-bycj-ocv"
-                          className="dropdown_icon"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <i class="fas fa-location-arrow"></i>
-                        </a>
+                        <button className="btn btn-link" disabled>
+                          <a
+                            href="https://meet.google.com/ykc-bycj-ocv"
+                            className="dropdown_icon"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <i class="fas fa-location-arrow"></i>
+                          </a>
+                        </button>
                       </div>
                       <div className="btn-group">
-                        <a
-                          href="#"
-                          className="dropdown-toggle dropdown_icon"
-                          data-toggle="dropdown"
-                        >
-                          <i className="fa fa-ellipsis-h" />
-                        </a>
-                        <ul className="dropdown-menu dropdown_more">
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-sms" />
-                              স্যারের সাথে কথা বলতে চাই
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              <i className="fas fa-pen" />
-                              বিস্তারিত হোমওয়ার্ক দেখতে চায়
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://meet.google.com/ykc-bycj-ocv"
-                              target="_black"
-                            >
-                              বইটি দেখেতে চাই
-                            </a>
-                          </li>
-                        </ul>
+                        <button className="btn btn-dark" disabled>
+                          ক্লাসটি ডাউনলোড করব
+                        </button>
                       </div>
                     </td>
                   </tr>

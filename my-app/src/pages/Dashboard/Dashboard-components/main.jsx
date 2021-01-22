@@ -4,6 +4,9 @@ import Profile from "./profile";
 import Attendance from "./attendance";
 import ClassRoutine from "./classroutine/index";
 import Homework from "./homework";
+import TeamChat from "./team-chat/team-chat";
+import Exam from "./exam/exam";
+import Book from "./books";
 const MainContent = ({ styleObj, path }) => {
   return (
     <Switch>
@@ -30,6 +33,21 @@ const MainContent = ({ styleObj, path }) => {
             exact
             path={`${path}/home-work`}
             render={(props) => <Homework {...props} />}
+          />
+          <Route
+            exact
+            path={`${path}/team-work`}
+            render={(props) => <TeamChat {...props} />}
+          />
+          <Route
+            exact
+            path={`${path}/evalution`}
+            render={(props) => <Exam {...props} />}
+          />
+          <Route
+            exact
+            path={`${path}/books`}
+            render={(props) => <Book {...props} />}
           />
         </div>
       </main>

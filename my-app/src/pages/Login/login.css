@@ -224,7 +224,7 @@ body {
 }
 
 .dropbox-content__img > img {
-  width: 70%;
+  width: 110%;
 }
 
 @media screen and (max-width: 960px) {
