@@ -44,7 +44,7 @@
 }
 
 @media (min-width: 600px) {
-  .card {
+  .page-content .card {
     height: 350px;
   }
 }

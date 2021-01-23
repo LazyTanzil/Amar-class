@@ -12,13 +12,11 @@
 .class-chat-header {
   min-height: 250px;
   background: url(./img/team-chat.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
+  /* background-position: center center; */
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  text-align: center;
+  /* text-align: center; */
   color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 .lite-chatbox {
@@ -143,10 +141,7 @@
   margin: 0 0 2px 48px;
 }
 /* 左右聊天气泡 */
-.input-group.mb-3.team-msg-field {
-  position: absolute;
-  bottom: -530px;
-}
+
 .lite-chatbox .cright .content {
   margin: 0 56px 0 0;
   -webkit-border-radius: 20px 0 20px 20px;

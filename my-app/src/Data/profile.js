@@ -5,7 +5,7 @@ exports.profile = {
   Section: "Kadam",
   School_ID: "ncpsc201603062",
   Gender: "male",
-  Email: "tanzil.ncpsc@gmail.com",
+  Email: "789520",
   Password: "123456",
 };
 

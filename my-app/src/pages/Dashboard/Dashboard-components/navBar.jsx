@@ -13,7 +13,7 @@ const NavBar = ({ styleObj, setSidebar }) => {
         />
       </div>
       <div className={styleObj.navbar__right}>
-        <span>ইফরিজা খানম, পঞ্চম</span>
+        <span>আমার ক্লাস - আমার শিক্ষা - আমার ভবিষ্যৎ </span>
       </div>
     </nav>
   );

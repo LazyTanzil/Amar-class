@@ -3,7 +3,9 @@ import { profile } from "../Data/profile";
 
 export const login = (email, password) => {
   if (profile.Email === email && profile.Password === password) {
-    cookie.set("isLogin", true);
+    cookie.set("isLogin", true, {
+      expires: 3,
+    });
     return true;
   } else {
     return false;

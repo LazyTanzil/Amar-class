@@ -90,75 +90,80 @@ const Login = ({ history }) => {
         pauseOnHover
       />
       {/* main design  */}
-      <div className="dropbox-content max-w-xl mx-auto flex">
-        <div className="dropbox-content__img w-half flex justify-center items-center">
-          <img src={loginSvg} alt="Login" />
-        </div>
-        <div className="dropbox-content__form w-half">
-          <form onSubmit={handleSubmit} className="flex flex-col">
-            <div className="flex flex-col form__btn">
-              <button className="form__btn-social form__btn-social--google">
-                <span className="form__border flex justify-center items-center">
-                  <img
-                    src={googleSvg}
-                    style={{ height: "1rem", width: "1rem" }}
-                    alt="asdasd"
-                  />
-                </span>
-                <span className="form__caption">গুগলের মাধমে লগইন করি </span>
-              </button>
-            </div>
-            <div className="form__liners flex justify-center items-center">
-              <span className="form__line" />
-              <span className="form__line--caption">অথবা,</span>
-              <span className="form__line" />
-            </div>
-            <div className="flex flex-col form__input-group">
-              <input
-                value={phone}
-                onChange={handleChange("phone")}
-                type="phone"
-                className="form__input form__input--email"
-                placeholder="মোবাইল নম্বর"
-              />
-              <input
-                value={password}
-                onChange={handleChange("password")}
-                type="password"
-                className="form__input form__input--password"
-                placeholder="পাসওয়ার্ড "
-              />
-            </div>
-            <div className="form__submit flex items-center justify-between">
-              <div className="flex">
-                <input
-                  type="checkbox"
-                  className="form__checklist"
-                  id="remember"
-                />
-                <label htmlFor="remember" className="form__label">
-                  আমার তথ্য সংরক্ষন করা থাক
-                </label>
+      <div className="body">
+        <div className="dropbox-content max-w-xl mx-auto flex">
+          <div className="dropbox-content__img w-half flex justify-center items-center">
+            <img src={loginSvg} alt="Login" />
+          </div>
+          <div className="dropbox-content__form w-half">
+            <form onSubmit={handleSubmit} className="flex flex-col">
+              <div className="flex flex-col form__btn">
+                <button className="form__btn-social form__btn-social--google">
+                  <span className="form__border flex justify-center items-center">
+                    <img
+                      src={googleSvg}
+                      style={{ height: "1rem", width: "1rem" }}
+                      alt="asdasd"
+                    />
+                  </span>
+                  <span className="form__caption">গুগলের মাধমে লগইন করি </span>
+                </button>
               </div>
-              <button className="form__btn-submit">লগইন </button>
+              <div className="form__liners flex justify-center items-center">
+                <span className="form__line" />
+                <span className="form__line--caption">অথবা,</span>
+                <span className="form__line" />
+              </div>
+              <div className="flex flex-col form__input-group">
+                <input
+                  value={phone}
+                  onChange={handleChange("phone")}
+                  type="phone"
+                  className="form__input form__input--email"
+                  placeholder="মোবাইল নম্বর"
+                />
+                <input
+                  value={password}
+                  onChange={handleChange("password")}
+                  type="password"
+                  className="form__input form__input--password"
+                  placeholder="পাসওয়ার্ড "
+                />
+              </div>
+              <div className="form__submit flex items-center justify-between">
+                <div className="flex">
+                  <input
+                    type="checkbox"
+                    className="form__checklist"
+                    id="remember"
+                  />
+                  <label htmlFor="remember" className="form__label">
+                    আমার তথ্য সংরক্ষন করা থাক
+                  </label>
+                </div>
+                <button className="form__btn-submit">লগইন </button>
+              </div>
+              <Link to="/forget-password" className="form__forgot">
+                পাসওয়ার্ড মনে নেই
+              </Link>
+            </form>
+            <div className="alert alert-secondary" role="alert">
+              নিজের অভিবাবকের মোবাইল নম্বর দেই
             </div>
-            <Link to="/forget-password" className="form__forgot">
-              পাসওয়ার্ড মনে নেই
-            </Link>
-          </form>
-          <div className="alert alert-secondary" role="alert">
-            নিজের অভিবাবকের মোবাইল নম্বর দেই
-          </div>
-          <div className="alert alert-secondary" role="alert">
-            গোপন পাসওয়ার্ড দেই
-          </div>
-          <div className="alert alert-secondary" role="alert">
-            কোন কারনে পাসওয়ার্ড মনে না থাকলে "পাসওয়ার্ড মনে নেই" অপশন টাতে চাপ
-            দেই
+            <div className="alert alert-secondary" role="alert">
+              গোপন পাসওয়ার্ড দেই
+            </div>
+            <div className="alert alert-secondary" role="alert">
+              কোন কারনে পাসওয়ার্ড মনে না থাকলে "পাসওয়ার্ড মনে নেই" অপশন টাতে চাপ
+              দেই
+            </div>
+            <div className="alert alert-secondary" role="alert">
+              ডিফল্ট ইউজারঃ ৭৮৯৫২, ডিফল্ট পাসওর্য়াডঃ ১২৩৪৫৬
+            </div>
           </div>
         </div>
+        {loading ? <Loading /> : null}
       </div>
-      {loading ? <Loading /> : null}
     </>
   );
 };

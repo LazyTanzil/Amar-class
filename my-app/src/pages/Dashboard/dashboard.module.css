@@ -41,7 +41,7 @@
 }
 
 .navbar {
-  background: #ffffff;
+  background: #8e44ad;
   grid-area: nav;
   height: 60px;
   display: flex;
@@ -53,8 +53,8 @@
 .navbar__right span {
   font-weight: blod;
   font-size: 20px;
-  color: #2d3436;
-  font-family: "Lato", sans-serif;
+  color: white;
+  font-family: "AdorshoLipi", sans-serif;
   text-transform: capitalize;
 }
 .navbar__right img {
