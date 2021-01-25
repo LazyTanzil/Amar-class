@@ -341,11 +341,7 @@ body {
 .home-det .home-dat {
   padding: 25px;
 }
-@media screen and (max-width: 600px) {
-  .home-det .home-dat {
-    padding: 10px;
-  }
-}
+
 .home-det .home-dat h3 {
   font-style: 22px;
 }
@@ -551,6 +547,14 @@ body {
   .rgbf {
     text-align: center;
   }
+  .overcover .covwe-inn .img-c img {
+    width: 150px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
+@media screen and (max-width: 600px) {
+  td {
+    font-size: 13px;
+  }
+}

@@ -107,11 +107,11 @@ const Attendance = () => {
             >
               <thead>
                 <tr className="attendance-table-header">
-                  <th style={{ minWidth: "50px" }}>ক্রমিক</th>
-                  <th style={{ minWidth: "100px" }}>তারিখ</th>
-                  <th style={{ minWidth: "120px" }}>বিষয়</th>
-                  <th style={{ minWidth: "100px" }}>সময়</th>
-                  <th style={{ minWidth: "120px" }}>অবস্থান</th>
+                  <th>ক্রমিক</th>
+                  <th>তারিখ</th>
+                  <th>বিষয়</th>
+                  <th>সময়</th>
+                  <th>অবস্থান</th>
                 </tr>
               </thead>
               <tbody className="routine-tbody">

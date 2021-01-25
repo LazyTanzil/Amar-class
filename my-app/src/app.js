@@ -14,6 +14,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Switch>
+          <Route path="/" exact render={(props) => <Login {...props} />} />
           <Route path="/student" render={(props) => <Dashboard {...props} />} />
           <Route path="/login" exact render={(props) => <Login {...props} />} />
           <Route

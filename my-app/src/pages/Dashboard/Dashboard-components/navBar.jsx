@@ -12,6 +12,9 @@ const NavBar = ({ styleObj, setSidebar }) => {
           }}
         />
       </div>
+      <div className={styleObj.navbar__left}>
+        <span>আমার ক্লাস</span>
+      </div>
       <div className={styleObj.navbar__right}>
         <span>আমার ক্লাস - আমার শিক্ষা - আমার ভবিষ্যৎ </span>
       </div>

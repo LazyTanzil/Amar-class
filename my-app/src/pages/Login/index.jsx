@@ -42,6 +42,7 @@ const Login = ({ history }) => {
     e.preventDefault();
     if (checkValidateEmail() && checkValidatePassword()) {
       setFormData({ ...formData, loading: true });
+      console.log(login(phone, password));
       if (login(phone, password)) {
         toast.dark("স্বাগত");
         history.push("/student");
@@ -55,7 +56,7 @@ const Login = ({ history }) => {
     }
   };
   const checkValidateEmail = () => {
-    if (phone.length === 11) {
+    if (phone.length >= 3) {
       return true;
     } else {
       // return false;
@@ -158,7 +159,7 @@ const Login = ({ history }) => {
               দেই
             </div>
             <div className="alert alert-secondary" role="alert">
-              ডিফল্ট ইউজারঃ ৭৮৯৫২, ডিফল্ট পাসওর্য়াডঃ ১২৩৪৫৬
+              ডিফল্ট ইউজারঃ student, ডিফল্ট পাসওর্য়াডঃ 123456
             </div>
           </div>
         </div>

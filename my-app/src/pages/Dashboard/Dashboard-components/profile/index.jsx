@@ -144,16 +144,7 @@ const Profile = () => {
                 </div>
                 <div className="links">
                   <div className="row ">
-                    <div className="col-xl-6 col-md-12">
-                      <ul className="btn-link ">
-                        <li className="profile-download">
-                          <a href>
-                            <i className="fas fa-cloud-download-alt" /> সিভি
-                            ডাউনলোড করি
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+                    <div className="col-xl-6 col-md-12"></div>
                     <div className="col-xl-6 col-md-12">
                       <ul className="social-link profile-links-home">
                         <li>

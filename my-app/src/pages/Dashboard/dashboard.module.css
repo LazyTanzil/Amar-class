@@ -166,6 +166,12 @@
   margin-bottom: 30px;
   /* color: #E85B6B; */
 }
+.navbar__left {
+  margin-left: 10px;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
 .sidebar__title h1 {
   margin: 0 15px;
 }
@@ -290,17 +296,21 @@
     margin-top: 30px;
   }
 }
+
 @media only screen and (max-width: 585px) {
   .navbar__right span {
     font-size: 16px;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .navbar__left {
-    display: none;
+    margin-left: 60%;
   }
+
   .navbar__right span {
     display: none;
   }
 }
+
+/* responsive design  */
