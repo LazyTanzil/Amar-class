@@ -92,6 +92,14 @@ const Homework = () => {
                 <button className="btn btn-dark text-white mb-2" type="button">
                   জমা দেই
                 </button>
+                <a
+                  className="btn btn-info text-white mb-2"
+                  href={BanglaHw}
+                  download="homeWork"
+                  type="button"
+                >
+                  পড়াটি ডাউনলোড করব
+                </a>
               </div>
             </div>
           </div>

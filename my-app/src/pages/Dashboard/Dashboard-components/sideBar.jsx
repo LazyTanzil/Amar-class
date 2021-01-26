@@ -31,6 +31,10 @@ const StudentOptions = ({ styleObj, url }) => {
         <NavLink to={`${url}/evalution`}>মূল্যায়ন</NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
+        <i className="fas fa-bell"></i>
+        <NavLink to={`${url}/notification`}>বিজ্ঞপ্তি</NavLink>
+      </div>
+      <div className={styleObj.sidebar__link}>
         <i class="fas fa-book"></i>
         <NavLink to={`${url}/books`}>বই সমূহ </NavLink>
       </div>

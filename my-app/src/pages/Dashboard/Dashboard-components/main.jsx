@@ -8,6 +8,8 @@ import TeamChat from "./team-chat/team-chat";
 import Exam from "./exam/exam";
 import Book from "./books";
 import ImpLink from "./Links";
+import Notification from "./notification/notification";
+
 const MainContent = ({ styleObj, path }) => {
   return (
     <Switch>
@@ -54,6 +56,11 @@ const MainContent = ({ styleObj, path }) => {
             exact
             path={`${path}/important-links`}
             render={(props) => <ImpLink {...props} />}
+          />
+          <Route
+            exact
+            path={`${path}/notification`}
+            render={(props) => <Notification {...props} />}
           />
         </div>
       </main>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import CLassVideo from "./class.mp4";
 const ClassRoutine = () => {
   return (
     <div className="container p-30">
@@ -64,9 +65,9 @@ const ClassRoutine = () => {
                         </button>
                       </div>
                       <div className="btn-group">
-                        <button className="btn btn-dark">
+                        <a className="btn btn-dark" href={CLassVideo} download>
                           ক্লাসটি ডাউনলোড করব
-                        </button>
+                        </a>
                       </div>
                     </td>
                   </tr>
@@ -95,9 +96,9 @@ const ClassRoutine = () => {
                         </button>
                       </div>
                       <div className="btn-group">
-                        <button className="btn btn-dark">
+                        <a className="btn btn-dark" href={CLassVideo} download>
                           ক্লাসটি ডাউনলোড করব
-                        </button>
+                        </a>
                       </div>
                     </td>
                   </tr>
@@ -126,9 +127,9 @@ const ClassRoutine = () => {
                         </button>
                       </div>
                       <div className="btn-group">
-                        <button className="btn btn-dark">
+                        <a className="btn btn-dark" href={CLassVideo} download>
                           ক্লাসটি ডাউনলোড করব
-                        </button>
+                        </a>
                       </div>
                     </td>
                   </tr>
@@ -141,7 +142,7 @@ const ClassRoutine = () => {
                     <td>৯ঃ০০</td>
                     <td>২/২/২০২১ </td>
                     <td>
-                      <span className="mode mode_upcoming">আগামীকাল </span>
+                      <span className="mode mode_running">শুরু হয়েছে </span>
                     </td>
                     <td>
                       <div className="btn-group">
@@ -172,11 +173,13 @@ const ClassRoutine = () => {
                     <td>১০ঃ০০</td>
                     <td>২/২/২০২১ </td>
                     <td>
-                      <span className="mode mode_upcoming">আগামীকাল </span>
+                      <span className="mode mode_upcoming" disabled>
+                        পরবর্তী ক্লাস
+                      </span>
                     </td>
                     <td>
                       <div className="btn-group">
-                        <button className="btn btn-link">
+                        <button className="btn btn-link" disabled>
                           <a
                             href="https://meet.google.com/ykc-bycj-ocv"
                             className="dropdown_icon bg-primary"
@@ -203,11 +206,11 @@ const ClassRoutine = () => {
                     <td>১১ঃ০০</td>
                     <td>২/২/২০২১ </td>
                     <td>
-                      <span className="mode mode_upcoming">আগামীকাল </span>
+                      <span className="mode mode_upcoming">পরবর্তী ক্লাস </span>
                     </td>
                     <td>
                       <div className="btn-group">
-                        <button className="btn btn-link">
+                        <button className="btn btn-link" disabled>
                           <a
                             href="https://meet.google.com/ykc-bycj-ocv"
                             className="dropdown_icon bg-primary"

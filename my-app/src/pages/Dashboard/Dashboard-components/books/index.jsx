@@ -3,7 +3,7 @@ import "./book.css";
 
 const SingleBook = ({ title, link }) => {
   return (
-    <div className="card">
+    <a className="card" href={link} target="_blank" rel="noopener noreferrer">
       <div className="content">
         <h2 className="title">{title}</h2>
         <button className="btn btn-primary">
@@ -27,7 +27,7 @@ const SingleBook = ({ title, link }) => {
           </a>
         </button>
       </div>
-    </div>
+    </a>
   );
 };
 const BookList = () => {

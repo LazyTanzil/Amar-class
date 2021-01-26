@@ -156,7 +156,7 @@ page-content .card .content {
   align-items: center;
   width: 100%;
   padding: 1rem;
-  transition: transform var(--d) var(--e);
+  /* transition: transform var(--d) var(--e); */
   z-index: 1;
 }
 
@@ -188,7 +188,7 @@ page-content .card .content > * + * {
   border: none;
 }
 
-@media (hover: hover) and (min-width: 600px) {
+@media (hover: hover) and (min-width: 300px) {
   .card:after {
     transform: translateY(0);
   }

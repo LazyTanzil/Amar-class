@@ -12,10 +12,6 @@ import googleSvg from "../../assests/google.svg";
 import "./login.css";
 //main component/page
 const Login = ({ history }) => {
-  const setTitle = () => {
-    document.title = "Login ";
-  };
-  setTitle();
   //initial state
   const initalState = {
     phone: "",
@@ -110,6 +106,14 @@ const Login = ({ history }) => {
                   <span className="form__caption">গুগলের মাধমে লগইন করি </span>
                 </button>
               </div>
+              <div className="alert alert-info" role="alert">
+                <h5 className="text-left">
+                  রূপকল্প ২০২১ বাস্তবায়নে তথ্যপ্রযুক্তির কোনো বিকল্প নেই
+                </h5>
+                <span className="text-right">
+                  - মাননীয় প্রধানমন্ত্রী শেখ হাসিনা
+                </span>
+              </div>
               <div className="form__liners flex justify-center items-center">
                 <span className="form__line" />
                 <span className="form__line--caption">অথবা,</span>
@@ -149,7 +153,7 @@ const Login = ({ history }) => {
               </Link>
             </form>
             <div className="alert alert-secondary" role="alert">
-              নিজের অভিবাবকের মোবাইল নম্বর দেই
+              নিজের অভিভাবকের মোবাইল নম্বর দেই
             </div>
             <div className="alert alert-secondary" role="alert">
               গোপন পাসওয়ার্ড দেই

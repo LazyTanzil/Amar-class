@@ -260,6 +260,10 @@
   background-color: #8e44ad;
   font-size: 14px;
 }
+.mode_running {
+  background-color: #d35400;
+  font-size: 14px;
+}
 .mode_upcoming {
   background-color: #f1c40f;
   font-size: 14px;
