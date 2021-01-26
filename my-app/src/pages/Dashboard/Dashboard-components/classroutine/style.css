@@ -298,3 +298,9 @@
 .routine-tbody tr > td {
   font-size: 18px !important;
 }
+
+@media only screen and (max-width: 500px) {
+  .routine-title {
+    text-align: center;
+  }
+}

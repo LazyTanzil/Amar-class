@@ -9,7 +9,7 @@ body {
 
 .quiz-box {
   background-color: #252d4a;
-  width: 700px;
+  /* width: 700px; */
   min-height: 200px;
   height: min-content;
   border-radius: 15px;
@@ -95,4 +95,10 @@ body {
 
 .quiz-btn svg {
   margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  main.page-content {
+    grid-template-columns: repeat(2, 0.5fr);
+  }
 }

@@ -11,8 +11,8 @@ const Attendance = () => {
     <>
       <div className="container my-3">
         <div className="jumbo-address">
-          <div className="row no-margin">
-            <div className="col-lg-8 no-padding">
+          <div className="row no-margin p-3">
+            <div className=" no-padding col-lg-8">
               <table className="addrss-list">
                 <tbody>
                   <tr>
@@ -31,7 +31,7 @@ const Attendance = () => {
               </table>
             </div>
             <hr />
-            <div className="col-lg-4 attendance-filter">
+            <div className=" attendance-filter col-lg-4">
               <span>মোট ক্লাস: 34 </span>
               <br />
               <span>উপস্থিত: 30 </span>
@@ -49,7 +49,7 @@ const Attendance = () => {
               </div>
             </div>
             <hr />
-            <div className=" mt-5 mb-4  w-100 d-flex flex-row justify-content-between align-items-center">
+            <div className="overflow-x my-3 d-flex w-100 flex-row justify-content-between align-items-center">
               <div
                 class="btn-group"
                 role="group"
@@ -65,8 +65,8 @@ const Attendance = () => {
                   উপস্থিতি
                 </button>
               </div>
-              <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-end">
+              <nav className="" aria-label="Page navigation example">
+                <ul class="pagination justify-content-end 6">
                   <li class="page-item disabled">
                     <a
                       class="page-link"
@@ -100,167 +100,168 @@ const Attendance = () => {
                 </ul>
               </nav>
             </div>
-            <table
-              style={{ width: "100%" }}
-              id="filtertable"
-              className="table cust-datatable dataTable no-footer "
-            >
-              <thead>
-                <tr className="attendance-table-header">
-                  <th>ক্রমিক</th>
-                  <th>তারিখ</th>
-                  <th>বিষয়</th>
-                  <th>সময়</th>
-                  <th>অবস্থান</th>
-                </tr>
-              </thead>
-              <tbody className="routine-tbody">
-                <tr>
-                  <td>১</td>
-                  <td>১/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">সমাজ</span>
-                  </td>
-                  <td>৮ঃ৩০ </td>
+            <div className="overflow-x w-100">
+              <table
+                id="filtertable"
+                className="table cust-datatable dataTable no-footer w-100  "
+              >
+                <thead>
+                  <tr className="attendance-table-header">
+                    <th style={{ minWidth: "100px" }}>ক্রমিক</th>
+                    <th style={{ minWidth: "100px" }}>তারিখ</th>
+                    <th style={{ minWidth: "100px" }}>বিষয়</th>
+                    <th style={{ minWidth: "100px" }}>সময়</th>
+                    <th style={{ minWidth: "100px" }}>অবস্থান</th>
+                  </tr>
+                </thead>
+                <tbody className="routine-tbody">
+                  <tr>
+                    <td>১</td>
+                    <td>১/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">সমাজ</span>
+                    </td>
+                    <td>৮ঃ৩০ </td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>২</td>
-                  <td>১/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">গণিত</span>
-                  </td>
-                  <td>৯ঃ৩০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>২</td>
+                    <td>১/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">গণিত</span>
+                    </td>
+                    <td>৯ঃ৩০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৩ </td>
-                  <td>১/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">বাংলা </span>
-                  </td>
-                  <td>১০ঃ৩০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৩ </td>
+                    <td>১/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">বাংলা </span>
+                    </td>
+                    <td>১০ঃ৩০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৪ </td>
-                  <td>২/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">বিজ্ঞান</span>
-                  </td>
-                  <td>৯ঃ০০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৪ </td>
+                    <td>২/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">বিজ্ঞান</span>
+                    </td>
+                    <td>৯ঃ০০</td>
 
-                  <td>
-                    <span className="mode mode_absent">অনুপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৫ </td>
-                  <td>২/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">বাংলা </span>
-                  </td>
-                  <td>১০ঃ০০</td>
+                    <td>
+                      <span className="mode mode_absent">অনুপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৫ </td>
+                    <td>২/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">বাংলা </span>
+                    </td>
+                    <td>১০ঃ০০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৬ </td>
-                  <td>২/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">ইংরেজি </span>
-                  </td>
-                  <td>১১ঃ০০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৬ </td>
+                    <td>২/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">ইংরেজি </span>
+                    </td>
+                    <td>১১ঃ০০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৭ </td>
-                  <td>৩/১/২০২১</td>
-                  <td>
-                    <span className="mode mode_Subject">গণিত</span>
-                  </td>
-                  <td>৮ঃ৩০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৭ </td>
+                    <td>৩/১/২০২১</td>
+                    <td>
+                      <span className="mode mode_Subject">গণিত</span>
+                    </td>
+                    <td>৮ঃ৩০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৮ </td>
-                  <td>৩/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">আইসিটি </span>
-                  </td>
-                  <td>৯ঃ৩০ </td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৮ </td>
+                    <td>৩/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">আইসিটি </span>
+                    </td>
+                    <td>৯ঃ৩০ </td>
 
-                  <td>
-                    <span className="mode mode_absent">অনুপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>৯ </td>
-                  <td>৩/১/২০২১</td>
-                  <td>
-                    <span className="mode mode_Subject">বাংলা</span>
-                  </td>
-                  <td>১০ঃ৩০ </td>
+                    <td>
+                      <span className="mode mode_absent">অনুপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>৯ </td>
+                    <td>৩/১/২০২১</td>
+                    <td>
+                      <span className="mode mode_Subject">বাংলা</span>
+                    </td>
+                    <td>১০ঃ৩০ </td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>১০</td>
-                  <td>৪/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">আইসিটি</span>
-                  </td>
-                  <td>৯ঃ৩০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>১০</td>
+                    <td>৪/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">আইসিটি</span>
+                    </td>
+                    <td>৯ঃ৩০</td>
 
-                  <td>
-                    <span className="mode mode_absent">অনুপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>১১</td>
-                  <td>৪/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">সমাজ</span>
-                  </td>
-                  <td>৯ঃ৩০</td>
+                    <td>
+                      <span className="mode mode_absent">অনুপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>১১</td>
+                    <td>৪/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">সমাজ</span>
+                    </td>
+                    <td>৯ঃ৩০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>১২</td>
-                  <td>৪/১/২০২১ </td>
-                  <td>
-                    <span className="mode mode_Subject">গণিত</span>
-                  </td>
-                  <td>৯ঃ৩০</td>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>১২</td>
+                    <td>৪/১/২০২১ </td>
+                    <td>
+                      <span className="mode mode_Subject">গণিত</span>
+                    </td>
+                    <td>৯ঃ৩০</td>
 
-                  <td>
-                    <span className="mode mode_on">উপস্থিত </span>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    <td>
+                      <span className="mode mode_on">উপস্থিত </span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

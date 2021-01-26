@@ -94,7 +94,7 @@ const Exam = () => {
                   aria-hidden="true"
                 >
                   <div className="modal-dialog">
-                    <div className="modal-content" style={{ width: "150%" }}>
+                    <div className="modal-content" style={{ width: "100%" }}>
                       <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">
                           কুইজ
