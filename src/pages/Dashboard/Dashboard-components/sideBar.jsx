@@ -15,19 +15,19 @@ const StudentOptions = ({ styleObj, url }) => {
         <NavLink to={`${url}/routine`}>ক্লাস রুটিন </NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
-        <i class="fas fa-user-check"></i>
+        <i className="fas fa-user-check"></i>
         <NavLink to={`${url}/attendance`}>উপস্থিতি </NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
-        <i class="fas fa-home"></i>
+        <i className="fas fa-home"></i>
         <NavLink to={`${url}/home-work`}>বাড়ির কাজ</NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
-        <i class="fas fa-users"></i>
+        <i className="fas fa-users"></i>
         <NavLink to={`${url}/team-work`}>দলীয় আলোচনা </NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
-        <i class="far fa-newspaper"></i>
+        <i className="far fa-newspaper"></i>
         <NavLink to={`${url}/evalution`}>মূল্যায়ন</NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
@@ -35,11 +35,11 @@ const StudentOptions = ({ styleObj, url }) => {
         <NavLink to={`${url}/notification`}>বিজ্ঞপ্তি</NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
-        <i class="fas fa-book"></i>
+        <i className="fas fa-book"></i>
         <NavLink to={`${url}/books`}>বই সমূহ </NavLink>
       </div>
       <div className={styleObj.sidebar__link}>
-        <i class="fas fa-link"></i>
+        <i className="fas fa-link"></i>
         <NavLink to={`${url}/important-links`}>গুরুত্বপূর্ণ লিঙ্ক</NavLink>
       </div>
     </>

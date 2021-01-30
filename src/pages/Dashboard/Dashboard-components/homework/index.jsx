@@ -12,7 +12,7 @@ const Homework = () => {
         <div className="card w-100 my-2">
           <div className="card-header d-flex justify-content-between align-items-center">
             <div className="card-left-side d-flex justify-content-between align-items-center">
-              <i class="fas fa-clipboard-list"></i>
+              <i className="fas fa-clipboard-list"></i>
               <h4 className="ml-3">আলমগীর হোসেন:গণিত</h4>
             </div>
             <div className="card-right-date">
@@ -26,10 +26,10 @@ const Homework = () => {
               </a>
             </div>
             <div className="col-md-4 hw-righPart-submit">
-              <span class="badge badge-lg bg-info text-white float-end">
+              <span className="badge badge-lg bg-info text-white float-end">
                 মার্কসঃ ৮/১০
               </span>
-              <span class="badge badge-lg bg-success text-white mx-2">
+              <span className="badge badge-lg bg-success text-white mx-2">
                 ইতিমধ্যে জমা দেয়া হয়েছে
               </span>
               <div className="d-block submit-image my-4">
@@ -45,14 +45,14 @@ const Homework = () => {
               </div>
               <div className="btn-group-vertical d-block">
                 <button
-                  disabled="true"
+                  disabled
                   type="button"
-                  class="btn btn-outline-success mb-2"
+                  className="btn btn-outline-success mb-2"
                 >
                   আরও ফাইল এড করি
                 </button>
                 <button
-                  disabled="true"
+                  disabled
                   className="btn btn-dark text-white mb-2"
                   type="button"
                 >
@@ -65,7 +65,7 @@ const Homework = () => {
         <div className="card w-100 mt-5">
           <div className="card-header d-flex justify-content-between align-items-center">
             <div className="card-left-side d-flex justify-content-between align-items-center">
-              <i class="fas fa-clipboard-list"></i>
+              <i className="fas fa-clipboard-list"></i>
               <h4 className="ml-2">নারগিস আক্তার:বাংলা</h4>
             </div>
             <div className="card-right-date">
@@ -79,14 +79,14 @@ const Homework = () => {
               </a>
             </div>
             <div className="col-md-4 hw-righPart-submit">
-              <span class="badge badge-lg bg-danger text-white mx-2">
+              <span className="badge badge-lg bg-danger text-white mx-2">
                 এখনো জমা দেয়া হয়নি
               </span>
               <div className="d-block submit-image my-4">
                 <h3>কোন ফাইল সংযুক্ত করা হয়নি </h3>
               </div>
               <div className="btn-group-vertical d-block">
-                <button type="button" class="btn btn-outline-success mb-2">
+                <button type="button" className="btn btn-outline-success mb-2">
                   আরও ফাইল এড করি
                 </button>
                 <button className="btn btn-dark text-white mb-2" type="button">

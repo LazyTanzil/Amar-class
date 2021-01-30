@@ -20,9 +20,10 @@ const TeamChat = () => {
             <div className="cleft cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={person1}
+                alt=""
               />
               <span className="name">মুনতাহা </span>
               <span className="content">
@@ -32,9 +33,10 @@ const TeamChat = () => {
             <div className="cleft cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={teacherImg}
+                alt=""
               />
               <span className="name">নারগিস </span>
               <span className="content">হ্যাঁ মুনতাহা । </span>
@@ -42,9 +44,10 @@ const TeamChat = () => {
             <div className="cleft cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={person2}
+                alt=""
               />
               <span className="name">আনিক </span>
               <span className="content">
@@ -54,9 +57,10 @@ const TeamChat = () => {
             <div className="cright cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={meImg}
+                alt=""
               />
               <span className="name">ইফরিজা </span>
               <span className="content">
@@ -66,8 +70,8 @@ const TeamChat = () => {
             <div className="cleft cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={person1}
               />
               <span className="name">মুনতাহা </span>
@@ -76,8 +80,8 @@ const TeamChat = () => {
             <div className="cleft cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={person3}
               />
               <span className="name">ফারহান </span>
@@ -88,8 +92,8 @@ const TeamChat = () => {
             <div className="cleft cmsg">
               <img
                 className="headIcon radius"
-                ondragstart="return false;"
-                oncontextmenu="return false;"
+                onDragStart={() => false}
+                onContextMenu={() => false}
                 src={teacherImg}
               />
               <span className="name">নারগিস </span>

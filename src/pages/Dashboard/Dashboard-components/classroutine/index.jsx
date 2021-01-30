@@ -22,7 +22,6 @@ const ClassRoutine = () => {
               </div>
             </div>
             <div className="overflow-x">
-              <tbod className="custom-body"></tbod>
               <table
                 style={{ width: "100%" }}
                 id="filtertable"
@@ -60,7 +59,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow"></i>
+                            <i className="fas fa-location-arrow"></i>
                           </a>
                         </button>
                       </div>
@@ -91,7 +90,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow"></i>
+                            <i className="fas fa-location-arrow"></i>
                           </a>
                         </button>
                       </div>
@@ -122,7 +121,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow"></i>
+                            <i className="fas fa-location-arrow"></i>
                           </a>
                         </button>
                       </div>
@@ -153,7 +152,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow text-white"></i>
+                            <i className="fas fa-location-arrow text-white"></i>
                           </a>
                         </button>
                       </div>
@@ -186,7 +185,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow text-white"></i>
+                            <i className="fas fa-location-arrow text-white"></i>
                           </a>
                         </button>
                       </div>
@@ -217,7 +216,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow  text-white"></i>
+                            <i className="fas fa-location-arrow  text-white"></i>
                           </a>
                         </button>
                       </div>
@@ -248,7 +247,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow"></i>
+                            <i className="fas fa-location-arrow"></i>
                           </a>
                         </button>
                       </div>
@@ -279,7 +278,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow"></i>
+                            <i className="fas fa-location-arrow"></i>
                           </a>
                         </button>
                       </div>
@@ -310,7 +309,7 @@ const ClassRoutine = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <i class="fas fa-location-arrow"></i>
+                            <i className="fas fa-location-arrow"></i>
                           </a>
                         </button>
                       </div>

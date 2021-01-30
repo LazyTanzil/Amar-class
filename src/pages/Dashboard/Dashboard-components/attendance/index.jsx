@@ -1,12 +1,6 @@
 import React from "react";
 import "./attendance.css";
 const Attendance = () => {
-  const body_obj = {
-    Name: "tanzil ",
-    Class: "eight",
-    Section: "kasdam",
-    Date: "2/2/2019",
-  };
   return (
     <>
       <div className="container my-3">
@@ -70,30 +64,30 @@ const Attendance = () => {
                   <li class="page-item disabled">
                     <a
                       class="page-link"
-                      href="#"
-                      tabindex="-1"
+                      href="/"
+                      tabIndex="-1"
                       aria-disabled="true"
                     >
                       পূর্বের পৃষ্ঠা
                     </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">
+                    <a class="page-link" href="https://www.github.com/lazyTanzil">
                       ১
                     </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">
+                    <a class="page-link" href="https://www.github.com/lazyTanzil">
                       ২
                     </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">
+                    <a class="page-link" href="https://www.github.com/lazyTanzil">
                       ৩
                     </a>
                   </li>
                   <li class="page-item">
-                    <a class="page-link" href="#">
+                    <a class="page-link" href="https://www.github.com/lazyTanzil">
                       পরবর্তী পৃষ্ঠা
                     </a>
                   </li>
